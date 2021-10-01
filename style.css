@@ -8,10 +8,5 @@ body,
 }
 
 .parent {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.child {
+  font-size: 100rem;
 }
