@@ -7,6 +7,19 @@ body,
   font-size: 62.5%;
 }
 
+.menu-item {
+  font-size: 7rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-title {
+  display: flex;
+  flex-direction: row;
+}
+
 .parent {
-  font-size: 100rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 5rem;
 }
