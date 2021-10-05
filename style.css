@@ -9,6 +9,8 @@ body,
 
 body {
   background-color: rgb(234, 228, 245);
+  font-family: "Spectral", serif;
+  text-align: center;
 }
 
 .flex-container {
@@ -18,12 +20,19 @@ body {
 
 .menu-item {
   background-color: rgb(255, 255, 255);
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .menu-title {
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 .menu-price {
-  font-size: 6rem;
+  font-size: 4rem;
+}
+
+.flex-picture {
+  width: 25rem;
+  height: 25rem;
 }
