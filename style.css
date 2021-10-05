@@ -7,19 +7,23 @@ body,
   font-size: 62.5%;
 }
 
-.menu-item {
-  font-size: 7rem;
+body {
+  background-color: rgb(234, 228, 245);
+}
+
+.flex-container {
   display: flex;
   flex-direction: row;
+}
+
+.menu-item {
+  background-color: rgb(255, 255, 255);
 }
 
 .menu-title {
-  display: flex;
-  flex-direction: row;
+  font-size: 7rem;
 }
 
-.parent {
-  display: flex;
-  flex-direction: row;
-  font-size: 5rem;
+.menu-price {
+  font-size: 6rem;
 }
