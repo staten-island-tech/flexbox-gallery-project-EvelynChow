@@ -16,20 +16,29 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .menu-item {
   background-color: rgb(255, 255, 255);
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: 2rem 2rem rgb(183, 178, 214);
 }
 
 .menu-title {
-  font-size: 5rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
 .menu-price {
-  font-size: 4rem;
+  font-size: 3rem;
+  margin-top: 2rem;
 }
 
 .flex-picture {
