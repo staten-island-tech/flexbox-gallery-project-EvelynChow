@@ -16,10 +16,13 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
 }
 
 .menu-item {
@@ -29,6 +32,11 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   box-shadow: 2rem 2rem rgb(183, 178, 214);
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 .menu-title {
