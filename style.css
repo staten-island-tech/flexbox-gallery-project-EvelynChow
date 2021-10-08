@@ -35,8 +35,8 @@ body {
 
   margin-top: 3rem;
   margin-bottom: 3rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .menu-title {
@@ -52,4 +52,9 @@ body {
 .flex-picture {
   width: 25rem;
   height: 25rem;
+}
+
+.menu-item:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
 }
