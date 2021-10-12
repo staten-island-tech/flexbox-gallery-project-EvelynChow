@@ -58,3 +58,31 @@ body {
   transform: scale(1.2);
   transition: all 0.5s;
 }
+
+.flex-animation {
+  height: 10rem;
+  width: 10rem;
+  background-color: purple;
+  animation: flex 4s ease-in infinite;
+  position: relative;
+}
+@keyframes flex {
+  0% {
+    left: 10%;
+    bottom: 10%;
+    top: 3%;
+    background-color: purple;
+  }
+  25% {
+    left: 50%;
+    bottom: 10%;
+    top: 3%;
+    background-color: purple;
+  }
+  100% {
+    left: 80%;
+    bottom: 5%;
+    top: 3%;
+    background-color: purple;
+  }
+}
