@@ -19,8 +19,8 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   margin-left: 20rem;
   margin-right: 20rem;
 }
@@ -55,34 +55,41 @@ body {
 }
 
 .menu-item:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: all 0.5s;
 }
 
+.flex-animation-image {
+  height: 6rem;
+  width: 6rem;
+}
 .flex-animation {
-  height: 10rem;
-  width: 10rem;
-  background-color: purple;
-  animation: flex 4s ease-in infinite;
+  height: 2%;
+  width: 2%;
+  animation: flex 6s ease-in infinite;
   position: relative;
 }
 @keyframes flex {
   0% {
-    left: 10%;
-    bottom: 10%;
+    left: 5%;
+
     top: 3%;
-    background-color: purple;
   }
   25% {
-    left: 50%;
-    bottom: 10%;
+    left: 92%;
     top: 3%;
-    background-color: purple;
   }
+  50% {
+    left: 92%;
+    top: 100%;
+  }
+  75% {
+    left: 5%;
+    top: 100%;
+  }
+
   100% {
-    left: 80%;
-    bottom: 5%;
+    left: 5%;
     top: 3%;
-    background-color: purple;
   }
 }
