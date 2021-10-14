@@ -17,12 +17,12 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 7rem;
   margin-bottom: 10rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .menu-item {
@@ -66,30 +66,39 @@ body {
 .flex-animation {
   height: 2%;
   width: 2%;
-  animation: flex 6s ease-in infinite;
+  animation: flex-pusheen 20s ease-in infinite;
   position: relative;
 }
-@keyframes flex {
+@keyframes flex-pusheen {
   0% {
     left: 5%;
-
-    top: 3%;
+    top: 2%;
   }
   25% {
     left: 92%;
-    top: 3%;
+    top: 2%;
   }
   50% {
     left: 92%;
-    top: 100%;
+    top: 101%;
   }
   75% {
     left: 5%;
-    top: 100%;
+    top: 101%;
   }
 
   100% {
     left: 5%;
-    top: 3%;
+    top: 2%;
   }
 }
+
+@media (max-width: 496px) {
+  body {
+    background-color: rgb(134, 109, 163);
+  }
+
+  .menu-item {
+    box-shadow: 2rem 2rem rgb(53, 34, 85);
+  }
+
