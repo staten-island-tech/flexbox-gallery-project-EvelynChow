@@ -59,6 +59,8 @@ body {
   transition: all 0.5s;
 }
 
+
+
 .flex-animation-image {
   height: 6rem;
   width: 6rem;
@@ -66,7 +68,7 @@ body {
 .flex-animation {
   height: 2%;
   width: 2%;
-  animation: flex-pusheen 20s ease-in infinite;
+  animation: flex-pusheen 25s ease-in;
   position: relative;
 }
 @keyframes flex-pusheen {
@@ -93,12 +95,21 @@ body {
   }
 }
 
-@media (max-width: 496px) {
+@media (max-width: 810px) {
   body {
-    background-color: rgb(134, 109, 163);
+    background-color: rgb(178, 163, 202);
   }
 
   .menu-item {
-    box-shadow: 2rem 2rem rgb(53, 34, 85);
+    box-shadow: 2rem 2rem rgb(100, 90, 121);
   }
 
+  @media (max-width: 390px) {
+    body {
+      background-color: rgb(134, 109, 163);
+    }
+  
+    .menu-item {
+      box-shadow: 2rem 2rem rgb(53, 34, 85);
+    }
+  }
