@@ -59,7 +59,10 @@ body {
   transition: all 0.5s;
 }
 
-
+.flex-container:hover .menu-item:not(:hover) {
+  transform: scale(.5);
+  opacity: .3;
+}
 
 .flex-animation-image {
   height: 6rem;
