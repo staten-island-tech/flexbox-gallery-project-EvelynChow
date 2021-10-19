@@ -54,14 +54,35 @@ body {
   height: 25rem;
 }
 
-.menu-item:hover {
+.flex-row-one:hover {
   transform: scale(1.1);
   transition: all 0.5s;
 }
 
-.flex-container:hover .menu-item:not(:hover) {
-  transform: scale(.5);
-  opacity: .3;
+.flex-row-two:hover {
+  transform: scale(1.1);
+  outline: 1rem solid rgb(132, 117, 175);
+  transition: all 0.5s;
+}
+
+.flex-row-three:hover {
+  transform: scale(1.1);
+  transition: all 2.5s;
+  transform: rotate(360deg);
+  
+}
+
+.flex-row-four:hover {
+  transform: scale(1.1);
+  background-color: rgb(231, 232, 250);
+  transition: all 0.5s;
+
+}
+
+.flex-row-five:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  opacity: 0.7;
 }
 
 .flex-animation-image {
